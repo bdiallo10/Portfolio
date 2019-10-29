@@ -1,6 +1,26 @@
   h1 {
     color: purple;
   }
+  h1 {
+    color: purple;
+    border-style: solid;
+    border-width:2px;
+    border-color: red;
+  }
+nav {
+  text-align: center;
+  margin: 0px 20px;
+  border: 2px;
+  border-style: solid;
+  float: center;
+}
+
+h2 {
+  color: purple;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+}
   p {
     color: purple;
   }
@@ -17,17 +37,11 @@
     font-weight: bold;
   }
   #lead-paragraph {
-    color: purple;
+    color: red;
     font-weight: bold;
   }
   .important:hover {
     background-color:#0000FF;
-  }
-  h1 {
-    color: purple;
-    border-style: solid;
-    border-width:1px;
-    border-color: red;
   }
   p.important {
     width: 75%;
