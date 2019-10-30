@@ -15,7 +15,7 @@ nav {
 }
 
 h2 {
-  color: purple;
+  color: red;
   border-style: solid;
   border-width: 2px;
   border-color: red;
@@ -42,9 +42,18 @@ h2 {
   .important {
     font-weight: bold;
   }
+  .comm-lead {
+    color: red;
+  }
   #lead-paragraph {
     color: red;
     font-weight: bold;
+  }
+  #abstract {
+    background: gray;
+  }
+  #navbar {
+    width: 100%;
   }
   .important:hover {
     background-color:#0000FF;
