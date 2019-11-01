@@ -1,6 +1,6 @@
-  h1 {
-    color: purple;
-  }
+* {
+  box-sizing: border-box;
+}
   h1 {
     color: purple;
     border-style: solid;
@@ -43,26 +43,26 @@ h2 {
     font-weight: bold;
   }
   .comm-lead {
-    color: red;
+    color: orange;
   }
   #lead-paragraph {
-    color: red;
+    color: orange;
     font-weight: bold;
   }
   #abstract {
-    background: gray;
+    background: pink;
   }
   #navbar {
     width: 100%;
   }
   .important:hover {
-    background-color:#0000FF;
+    background-color: orange;
   }
   p.important {
     width: 75%;
   }
   img {
-    border-style: dashed;
+    border-style: solid;
     border-color: orange;
     border-width: 3px;
     width: 75%;
