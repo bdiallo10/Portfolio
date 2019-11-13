@@ -1,69 +1,78 @@
 * {
   box-sizing: border-box;
 }
-  h1 {
-    color: purple;
-    border-style: solid;
-    border-width:2px;
-    border-color: red;
-    text-align: center;
-  }
-nav {
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: serif;
+  background-color: white;
+}
+.header {
+background-color: orange;
+}
+#navbar {
+  color: orange;
+  list-style: none;
   text-align: center;
-  margin: 10px 20px;
-  border: 2px;
+  padding: 15px 0 15px 0;
+}
+#navbar > li > a:hover {
+    color: red;
+}
+#navbar > li {
+  display: inline-block;
+  padding-right:50px;
 }
 
-h2 {
-  color: red;
-  border-style: solid;
-  border-width: 2px;
-  border-color: red;
-  text-align: center;
-
+#navbar > li > a {
+  text-decoration: none;
+  text-color: white;
 }
-  p {
+h1 {
+  text-align: center;
+}
+
+p {
     color: purple;
     line-height: 1.5em;
   }
-    ul {
+ul {
     line-height: 1.5em;
     font-weight: bold;
   }
-  body {
+body {
     background-color: white;
   }
-  img {
-    width: 100%;
+
+.purple-text {
+  color: purple;
   }
-  .purple-text {
-    color: purple;
+.important {
+  font-weight: bold;
   }
-  .important {
-    font-weight: bold;
-  }
-  .comm-lead {
-    color: orange;
-  }
-  #lead-paragraph {
-    color: orange;
-    font-weight: bold;
-  }
-  #abstract {
-    background: pink;
-  }
-  #navbar {
-    width: 100%;
-  }
-  .important:hover {
-    background-color: orange;
-  }
-  p.important {
-    width: 75%;
-  }
-  img {
+.comm-lead {
+  color: orange;
+}
+#lead-paragraph {
+  color: orange;
+  font-weight: bold;
+}
+#abstract {
+  background: pink;
+}
+
+.important:hover {
+  background-color: orange;
+}
+p.important {
+  width: 75%;
+}
+img {
     border-style: solid;
     border-color: orange;
     border-width: 3px;
-    width: 75%;
-  }
+    width: 90%;
+}
+.foot {
+  text-align: center;
+}
