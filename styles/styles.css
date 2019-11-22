@@ -27,7 +27,11 @@ body {
 
 #navbar > li > a {
   text-decoration: none;
-  text-color: white;
+}
+#navbar a:hover {
+  color: magenta;
+  font-size: 150%;
+  font-family: monospace;
 }
 h1 {
   text-align: center;
