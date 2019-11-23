@@ -33,6 +33,17 @@ body {
   font-size: 150%;
   font-family: monospace;
 }
+  section ul li:nth-child(odd) {color: orange;}
+    .project p:hover {
+    background: yellow;
+    transition: width 5s, height 5s,
+    background-color 5s, transform 2s;
+  }
+  .schools ul li:hover {
+    background: orange;
+    transition: width 5s, height 5s,
+    background-color 5s, transform 2s;
+  }
 h1 {
   text-align: center;
   font-family: 'Pacifico', cursive;
@@ -52,7 +63,6 @@ ul {
 body {
     background-color: white;
   }
-
 .purple-text {
   color: purple;
   text-align: left;
